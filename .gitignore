@@ -1,0 +1,18 @@
+# данные не храним в репозитории - качаются скриптом src/download_data.py
+data/
+
+# веса моделей храним в wandb, не в гите
+models/
+*.pt
+*.pth
+
+# логи wandb
+wandb/
+
+# окружение
+.venv/
+__pycache__/
+
+# мусор jupyter и macos
+.ipynb_checkpoints/
+.DS_Store
